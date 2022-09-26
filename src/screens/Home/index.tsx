@@ -111,13 +111,6 @@ export function Home() {
     setPercentage(Math.trunc((heightAnimated.value + 100) / 10));
   }
 
-  useEffect(() => {
-    if (percentage >= 100) {
-      heightAnimated.value = 0;
-      setPercentage(0);
-    }
-  }, [percentage]);
-
   return (
     <View style={styles.container}>
       <Header ml={percentage} percent={percentage} />
