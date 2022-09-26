@@ -1,8 +1,10 @@
-<p align="center" display="flex">
- <img src=".github/0.png" alt="waterdrink"/>
- <img src=".github/50.png" alt="waterdrink"/>
- <img src=".github/100.png" alt="waterdrink"/>
-</p>
+<table>
+<tr>
+ <td valign="top"><img src=".github/0.png" alt="waterdrink"/></td>
+ <td valign="top"><img src=".github/50.png" alt="waterdrink"/></td>
+ <td valign="top"><img src=".github/100.png" alt="waterdrink"/></td>
+ <tr/>
+</table>
 
 ## 💻 Projeto
 
